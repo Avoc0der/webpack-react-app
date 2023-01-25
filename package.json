@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve",
-    "build": "webpack --mode production --progress --hide-modules",
+    "build": "webpack --mode production --progress",
     "tscheck": "tsc",
     "lint": "eslint --ext .js,.ts,.jsx,.tsx src",
     "format": "yarn run lint --fix & yarn prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
